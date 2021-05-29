@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* *{
+            box-sizing: border-box;
+        } */
+        body{
+            background-color: papayawhip;
+        }
+        .content{
+            /* height: 90vh; */
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+            align-items: baseline;
+            align-content: space-evenly
+        }
+        
+      .col{
+            background-color: beige;
+            width: 350px;
+          
+             
+        }
+            .con{
+                        width: 900px;
+                        /* height: 80vh; */
+                        margin: 40px  auto;
+                        display: flex;
+                        justify-content: center;
+                        
+            }
+            .col1{
+                width: 700px;
+                text-align: center;
+                
+            }
+                .one{
+                   
+                
+                 
+                }
+      .one-img{
+                width: 300px;
+      }
+      .one-part{
+                width: 300px;
+                padding-left: 20px;
+                
+      }
+      .two{
+          margin-top: 40px;
+        display: flex;
+         justify-content: center;
+            align-items: center;
+            flex-direction: row-reverse;
+
+      }
+      .two-img{
+          width: 250px;
+      }
+      .two-part{
+          width: 400px;
+      }
+      @media screen and (max-width: 420px){
+          .one,.two{
+              flex-direction: column;
+          } 
+           .one-img{
+              width: 1440px;
+          }
+          .one-part{
+              width: 230px;
+          }
+          .two-img{
+
+          }
+          .two-part{
+
+          }
+      }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="col"> 
+            <h1 style="text-align: center;">This is one</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam facilis praesentium architecto suscipit minus eos est beatae. Quod similique fugiat ex, atque quam, quibusdam quasi hic doloremque nostrum, tenetur nobis.</p>
+        </div>
+        
+        <div class="col">
+            <h1 style="text-align: center;">This is two</h1>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam facilis praesentium architecto suscipit minus eos est beatae. Quod similique fugiat ex, atque quam, quibusdam quasi hic doloremque nostrum, tenetur nobis.</p>
+        </div>
+        <div class="col">
+            <h1 style="text-align: center;">This is three</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam facilis praesentium architecto suscipit minus eos est beatae. Quod similique fugiat ex, atque quam, quibusdam quasi hic doloremque nostrum, tenetur nobis.</p>
+        </div>
+        </div>
+        <section class="con">
+            <div class="col1">
+                <h1>This is one</h1>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate tempore sunt omnis mollitia, nisi excepturi esse ducimus asperiores vero doloribus magnam quasi, iure ab quibusdam facere dolorem non earum exercitationem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora repellat architecto facere, temporibus, aperiam mollitia necessitatibus reprehenderit praesentium ipsum fugiat perferendis accusamus quam hic rem assumenda sapiente laudantium, odit ducimus?            
+            </div>
+        
+        </section>
+        <section class="one">
+            <img src="css.html/she.png" class="one-img" alt="">
+            <div class="one-part">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium similiq.</div>
+        </section>
+        <section class="two">
+            <img src="css.html/she1.jpg" class="two-img" alt="" srcset="">
+            <div class="two-part">
+                <h1>This is my life</h1>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat et similique corporis non iusto magnam vitae animi consectetur laboriosam corrupti architecto ipsam sequi, dolor ad voluptatibus. Molestias commodi veniam impedit.
+            </div>
+        </section>
+</body>
+</html>

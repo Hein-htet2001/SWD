@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .display{
+            display: flex;
+           
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+
+        }
+        img{
+            width: 200px;
+            animation-name: toright;
+            animation-duration: 2s;
+            border-radius: 10px;
+        }
+        .content{
+            width: 300px;
+            margin-left: 20px;
+            font-size: 15px;
+            /* animation: toleft 4s ; */
+        }
+        @keyframes toright{
+            from{
+                 transform: translateX(-550px);
+            }
+            to{
+                transform: translateX(0px);
+            }
+        }
+        @keyframes toleft{
+            from{
+                 transform: translateX(550px);
+            }
+            to{
+                transform: translateX(0px);
+            }
+        }
+        h1{
+            animation: toleft 2s ;
+        }
+        p{
+           
+            animation: toleft 3s ;
+        
+        }
+        .icon{
+            width: 50px;
+            position: fixed;
+            left: 50%;
+             top: 51%;
+             animation-name: shape ;
+             animation-duration: 0.3s;
+            animation-iteration-count: infinite;
+            animation-direction:alternate ;
+            
+        }
+        @keyframes shape {
+            from{
+                        transform: scale(0.5);
+            }
+            to{
+                transform: scale(1.5);
+            }
+        }
+         @keyframes optgp {
+             from{
+                transform: translateX(200px);
+             }
+             to{
+
+             }
+             
+         }
+        .opt{
+           animation: optgp 2s ;
+           animation-direction: alternate;
+           animation-direction: alternate-reverse;
+           animation-iteration-count: infinite;
+        }
+    </style>
+</head>
+<body>
+    <h1>Option Group</h1>
+    <select name="" class="opt">
+        <optgroup label="fruit">
+        <option value="apple">apple</option>
+        <option value="strawbery">strawbery</option>
+        <option value="orange">orange</option>
+        <option value="grape">grape</option>
+    </optgroup>
+
+        <optgroup label="stationary"> 
+        <option value="book">book</option>
+        <option value="pencil">pencil</option>
+        </optgroup>
+    
+
+       <optgroup label="currency">
+        <option value="dollor">dollor</option>
+        <option value="europe">europe</option>
+       </optgroup>
+        
+    </select>
+    <hr>
+    <div class="display">
+        <img src="css.html/she.png" alt="" srcset="">
+        <div class="content">
+            <h1>THIS LOVE</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo sit ducimus at quos minima quia quam ipsa ea, repudiandae hic et, obcaecati ratione! Velit, nisi sunt quod adipisci sint vero?</p>
+        </div>
+    </div>
+    
+<svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"/></svg>
+</body>
+</html>

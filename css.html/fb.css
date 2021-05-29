@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: #aaacb0;
+}
+.root{
+    --primary:#2d88ff;
+    --dark:#18191a;
+    --semi_dark:#242526;
+    --soft_dark:#3a3b3c;
+    --danger:#f02849;
+    --success:#45bd62;
+    --warning:#b08627;
+    --text_color:#aaacb0;
+
+}
+body{
+    background-color: #18191a;
+}
+.nav{
+        /* height: 70px; */
+        background-color: #242526;
+        display: flex;
+       
+}
+.left{
+    width: 25%;
+    display: flex;
+    
+}
+.left-box{
+    display: flex;
+    padding: 10px;
+    margin-top: 10px;
+}
+.logo{
+            width: 40px;
+            margin-right:10px ;
+}
+.search-box{    
+        background-color:#3a3b3c ;
+        border-radius: 100px;
+        padding: 10px 15px;
+}
+.search-box .feather-search{
+            margin-right: 5px;
+}
+.search-input{
+        color:#aaacb0;
+        background-color:#3a3b3c ;
+        border: none;
+}
+.search-input:focus{
+    outline: none;
+}
+.center{
+    width: 50%;
+}
+.center-box{
+        display: flex;
+        justify-content: center;
+}
+.center-link{
+    display: flex;
+   
+    border: 3px solid #242526;
+    width: 149px;
+    padding: 25px;
+    justify-content: center;
+    align-items: center
+   
+  
+}   
+
+.center-icon{
+
+}
+.noti{
+
+}
+.right{
+    width: 25%;
+
+}
